@@ -9,7 +9,7 @@ const HeroSection = () => {
           <div className="w-24 h-24 mx-auto mb-8 bg-gradient-primary rounded-full flex items-center justify-center animate-glow">
             <div className="h-24 w-24 flex items-center justify-center rounded-full bg-accent overflow-hidden">
               <img 
-                src="/logo.png" 
+                src="/logo.jpg" 
                 alt="Logo" 
                 className="h-full w-full object-cover"
               />
