@@ -6,14 +6,12 @@ const HeroSection = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-subtle">
       <div className="container mx-auto px-6">
         <div className="text-center animate-fade-in">
-          <div className="w-24 h-24 mx-auto mb-8 bg-gradient-primary rounded-full flex items-center justify-center animate-glow">
-            <div className="h-24 w-24 flex items-center justify-center rounded-full bg-accent overflow-hidden">
-              <img 
-                src="/logo.jpg" 
-                alt="Logo" 
-                className="h-full w-full object-cover"
-              />
-            </div>
+          <div className="w-24 h-24 mx-auto mb-8 rounded-full overflow-hidden animate-glow">
+            <img 
+              src="/logo.jpg" 
+              alt="Logo" 
+              className="h-full w-full object-cover"
+            />
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
