@@ -71,28 +71,28 @@ const ContactSection = () => {
             <CardContent className="p-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-foreground">About Me</h3>
                   <p className="text-muted-foreground leading-relaxed mb-6">
                     I'm a passionate developer based in England, focused on creating innovative Minecraft mods 
                     and exploring various programming languages. Through Aconite Studios, I publish mods that 
                     enhance gameplay experiences for the Minecraft community.
                   </p>
-                  <p className="text-muted-foreground leading-relaxed">
+                  
+                  <p className="text-muted-foreground leading-relaxed mb-6">
                     My projects span from Java Minecraft mods to Python utilities, Rust applications, 
                     and shader development tools. I believe in open-source collaboration and 
                     continuously learning new technologies.
-                    
                   </p>
-                  <p className="text-muted-foreground leading-relaxed mb-6">
-                    I intend to study psychoanalysis at university,
-                    with the goal of becoming a child psychologist,
-                    specializing in gender and sexuality-affirming therapy.
-                    
-                    My long-term ambition is to open my own therapy clinic,
-                    providing a safe and supportive space for young people,
-                    especially those exploring identity, gender, and sexuality.
-                    
-                    I also dream of running a café one day —
+                  
+                  <p className="text-muted-foreground leading-relaxed">
+                    I intend to study psychoanalysis at university,  
+                    with the goal of becoming a child psychologist,  
+                    specializing in gender and sexuality-affirming therapy.  
+                  
+                    My long-term ambition is to open my own therapy clinic,  
+                    providing a safe and supportive space for young people,  
+                    especially those exploring identity, gender, and sexuality.  
+                  
+                    I also dream of running a café one day —  
                     a welcoming, creative space that builds community alongside my practice.
                   </p>
                 </div>
