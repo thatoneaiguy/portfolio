@@ -81,6 +81,7 @@ const ContactSection = () => {
                     My projects span from Java Minecraft mods to Python utilities, Rust applications, 
                     and shader development tools. I believe in open-source collaboration and 
                     continuously learning new technologies.
+                    
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
                     I intend to study psychoanalysis at university,
