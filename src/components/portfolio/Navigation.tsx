@@ -30,7 +30,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-24 h-24 mx-auto mb-8 rounded-full overflow-hidden animate-glow">
+            <div className="w-12 h-12 rounded-full overflow-hidden animate-glow">
               <img 
                 src="/logo.jpg" 
                 alt="Logo" 
