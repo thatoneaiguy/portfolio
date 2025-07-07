@@ -1,4 +1,4 @@
-import { Github, ExternalLink, MapPin, Clock } from "lucide-react";
+import { Github, ExternalLink, MapPin, Clock, Book, Code2, Coffee } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -6,6 +6,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-6">
+        
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Get In Touch
@@ -17,6 +18,7 @@ const ContactSection = () => {
 
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            
             <Card className="bg-gradient-card border-border shadow-card hover:shadow-elegant transition-all duration-300 animate-fade-in">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 mx-auto mb-6 bg-gradient-primary rounded-full flex items-center justify-center">
@@ -27,12 +29,7 @@ const ContactSection = () => {
                   Check out my repositories, contribute to projects, or follow my development journey.
                 </p>
                 <Button asChild variant="outline" className="shadow-elegant">
-                  <a 
-                    href="https://github.com/thatoneaiguy" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2"
-                  >
+                  <a href="https://github.com/thatoneaiguy" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                     <Github className="w-4 h-4" />
                     @thatoneaiguy
                     <ExternalLink className="w-3 h-3 ml-1" />
@@ -41,8 +38,7 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-card border-border shadow-card hover:shadow-elegant transition-all duration-300 animate-fade-in" 
-                  style={{ animationDelay: '0.1s' }}>
+            <Card className="bg-gradient-card border-border shadow-card hover:shadow-elegant transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.1s' }}>
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 mx-auto mb-6 bg-gradient-primary rounded-full flex items-center justify-center">
                   <ExternalLink className="w-8 h-8 text-primary-foreground" />
@@ -52,52 +48,45 @@ const ContactSection = () => {
                   Join the community, get support for mods, or just chat about development and gaming.
                 </p>
                 <Button asChild className="shadow-elegant">
-                  <a 
-                    href="https://discord.gg/QhkT6WeQP3" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2"
-                  >
+                  <a href="https://discord.gg/QhkT6WeQP3" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                     <ExternalLink className="w-4 h-4" />
                     Join Discord
                   </a>
                 </Button>
               </CardContent>
             </Card>
+
           </div>
 
-          <Card className="bg-gradient-card border-border shadow-card animate-fade-in" 
-                style={{ animationDelay: '0.2s' }}>
+          <Card className="bg-gradient-card border-border shadow-card animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <CardContent className="p-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                
                 <div>
                   <p className="text-muted-foreground leading-relaxed mb-6">
                     I'm a passionate developer based in England, focused on creating innovative Minecraft mods 
                     and exploring various programming languages. Through Aconite Studios, I publish mods that 
                     enhance gameplay experiences for the Minecraft community.
                   </p>
-                  
                   <p className="text-muted-foreground leading-relaxed mb-6">
                     My projects span from Java Minecraft mods to Python utilities, Rust applications, 
                     and shader development tools. I believe in open-source collaboration and 
                     continuously learning new technologies.
                   </p>
-                  
                   <p className="text-muted-foreground leading-relaxed">
                     I intend to study psychoanalysis at university,  
                     with the goal of becoming a child psychologist,  
                     specializing in gender and sexuality-affirming therapy.  
-                  
                     My long-term ambition is to open my own therapy clinic,  
                     providing a safe and supportive space for young people,  
                     especially those exploring identity, gender, and sexuality.  
-                  
                     I also dream of running a café one day —  
                     a welcoming, creative space that builds community alongside my practice.
                   </p>
                 </div>
-                
+
                 <div className="space-y-6">
+
                   <div className="flex items-center gap-4 text-muted-foreground">
                     <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
                       <MapPin className="w-5 h-5 text-primary" />
@@ -107,7 +96,7 @@ const ContactSection = () => {
                       <div className="text-sm">England</div>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-center gap-4 text-muted-foreground">
                     <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
                       <Clock className="w-5 h-5 text-primary" />
@@ -117,10 +106,43 @@ const ContactSection = () => {
                       <div className="text-sm">GMT (UTC+0)</div>
                     </div>
                   </div>
+
+                  <div className="flex items-center gap-4 text-muted-foreground">
+                    <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
+                      <Book className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <div className="font-medium text-foreground">Studying</div>
+                      <div className="text-sm">Psychoanalysis & Psychology</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-4 text-muted-foreground">
+                    <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
+                      <Code2 className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <div className="font-medium text-foreground">Development</div>
+                      <div className="text-sm">Minecraft Mods, Rust, Python, Shader Tools</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-4 text-muted-foreground">
+                    <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
+                      <Coffee className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <div className="font-medium text-foreground">Future Goal</div>
+                      <div className="text-sm">Run a Community Café</div>
+                    </div>
+                  </div>
+
                 </div>
+
               </div>
             </CardContent>
           </Card>
+
         </div>
       </div>
     </section>
