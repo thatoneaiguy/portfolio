@@ -82,6 +82,18 @@ const ContactSection = () => {
                     and shader development tools. I believe in open-source collaboration and 
                     continuously learning new technologies.
                   </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    I intend to study psychoanalysis at university,
+                    with the goal of becoming a child psychologist,
+                    specializing in gender and sexuality-affirming therapy.
+                    
+                    My long-term ambition is to open my own therapy clinic,
+                    providing a safe and supportive space for young people,
+                    especially those exploring identity, gender, and sexuality.
+                    
+                    I also dream of running a café one day —
+                    a welcoming, creative space that builds community alongside my practice.
+                  </p>
                 </div>
                 
                 <div className="space-y-6">
