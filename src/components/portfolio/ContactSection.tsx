@@ -83,7 +83,7 @@ const ContactSection = () => {
                     continuously learning new technologies.
                     
                   </p>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed mb-6">
                     I intend to study psychoanalysis at university,
                     with the goal of becoming a child psychologist,
                     specializing in gender and sexuality-affirming therapy.
