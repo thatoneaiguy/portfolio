@@ -6,9 +6,13 @@ const HeroSection = () => {
     <section 
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: "url('/pattern.png')",
-        backgroundRepeat: "repeat",
-        backgroundSize: "100px",
+        backgroundImage: `
+          url('/fabric-logo.png'),
+          url('/quilt-logo.png')
+        `,
+        backgroundRepeat: "repeat, repeat",
+        backgroundSize: "100px 100px, 100px 100px",
+        backgroundPosition: "0 0, 50px 50px",
       }}
     >
       {/* Foreground Content */}
