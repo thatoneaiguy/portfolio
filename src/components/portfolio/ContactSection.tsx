@@ -245,15 +245,15 @@ const ContactSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <FlipCard
               title="Post 16"
-              backText="(You can write here about your academic path, subject choices, or reflections post-16.)"
+              backText="Through my experience on the Emmanuel Outreach course, I understood that the choice of your A Levels is vital; in the university course you're looking into."
             />
             <FlipCard
               title="Aspirations"
-              backText="(You can write about your future goals, ambitions, and personal dreams here.)"
+              backText="I intend to study psychoanalysis at university, with the goal of becoming a childs psychologist"
             />
             <FlipCard
               title="What I Learnt"
-              backText="(Add personal growth, skills developed, or important lessons here.)"
+              backText="Many lessons I didn't know about the finances of going to university, as well as much of the life at university"
             />
           </div>
         </div>
