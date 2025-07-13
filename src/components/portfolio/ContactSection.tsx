@@ -146,6 +146,62 @@ const ContactSection = () => {
         </div>
       </div>
     </section>
+    <section id="emmanuel" className="py-20 bg-background">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+            My Experience with Emmanuel
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            A reflection on my growth, learning, and future goals through my time at Emmanuel.
+          </p>
+        </div>
+    
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {/* Card 1 */}
+          <div className="group perspective">
+            <div className="relative preserve-3d transition-transform duration-700 group-hover:rotate-y-180 w-full h-64">
+              <div className="absolute inset-0 bg-card rounded-xl shadow-lg p-6 backface-hidden flex items-center justify-center text-center">
+                <h3 className="text-2xl font-semibold text-foreground">Post 16</h3>
+              </div>
+              <div className="absolute inset-0 bg-secondary rounded-xl shadow-lg p-6 backface-hidden rotate-y-180 text-muted-foreground text-sm flex items-center justify-center text-center">
+                <p>
+                  (You can write here about your academic path, subject choices, or reflections post-16.)
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          {/* Card 2 */}
+          <div className="group perspective">
+            <div className="relative preserve-3d transition-transform duration-700 group-hover:rotate-y-180 w-full h-64">
+              <div className="absolute inset-0 bg-card rounded-xl shadow-lg p-6 backface-hidden flex items-center justify-center text-center">
+                <h3 className="text-2xl font-semibold text-foreground">Aspirations</h3>
+              </div>
+              <div className="absolute inset-0 bg-secondary rounded-xl shadow-lg p-6 backface-hidden rotate-y-180 text-muted-foreground text-sm flex items-center justify-center text-center">
+                <p>
+                  (You can write about your future goals, ambitions, and personal dreams here.)
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          {/* Card 3 */}
+          <div className="group perspective">
+            <div className="relative preserve-3d transition-transform duration-700 group-hover:rotate-y-180 w-full h-64">
+              <div className="absolute inset-0 bg-card rounded-xl shadow-lg p-6 backface-hidden flex items-center justify-center text-center">
+                <h3 className="text-2xl font-semibold text-foreground">What I Learnt</h3>
+              </div>
+              <div className="absolute inset-0 bg-secondary rounded-xl shadow-lg p-6 backface-hidden rotate-y-180 text-muted-foreground text-sm flex items-center justify-center text-center">
+                <p>
+                  (Add personal growth, skills developed, or important lessons here.)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
